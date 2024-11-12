@@ -1,0 +1,81 @@
+/* Gaya dasar untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container umum untuk membungkus semua konten */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Gaya untuk header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Gaya untuk section pengertian */
+#intro {
+    padding: 20px 0;
+}
+
+/* Gaya untuk section fitur */
+#features {
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+#features ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#features ul li {
+    margin: 10px 0;
+}
+
+/* Gaya untuk section cara memulai */
+#getting-started {
+    padding: 20px 0;
+}
+
+/* Gaya untuk section contact */
+#contact {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Penataan untuk ikon sosial media agar terpusat */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Jarak antar ikon */
+    margin-top: 20px;
+}
+
+/* Penataan untuk logo sosial media */
+.social-logo {
+    width: 50px; /* Ukuran logo */
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+/* Efek saat hover pada logo sosial media */
+.social-logo:hover {
+    transform: scale(1.1); /* Memperbesar logo saat hover */
+}
+
+/* Gaya untuk footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
